@@ -7,6 +7,7 @@ import ReferralProgram from './pages/ReferralProgram'
 import Support from './pages/Support'
 import Withdraw from './pages/Withdraw'
 import Recharge from './pages/Recharge'
+
 const APP = () => {
   return (
     <div>

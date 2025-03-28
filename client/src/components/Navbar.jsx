@@ -1,12 +1,11 @@
 import React from "react";
 import { assets } from "../assets/assets";
-import { ChevronDown } from 'lucide-react';
+// import { ChevronDown } from 'lucide-react';
 
 const Navbar = () => {
     return (
-      <div>
-        <nav className= "top-0 hidden h-[75px] w-full items-center bg-auto bg-center bg-no-repeat transition lg:flex" aria-label= "Top">
-          <div className= "mx-auto max-w-[1171px] w-full flex items-center justify-between">
+        <nav className= "fixed top-0 hidden left-0 right-0 z-50 h-[75px] w-full bg-white shadow-md items-center bg-auto bg-center bg-no-repeat transition lg:flex" aria-label= "Top">
+          <div className= "mx-auto max-w-[1171px] h-full w-full flex items-center justify-between">
             <div className="ml-6 w-full xl:ml-0">
               <a aria-current="page" href="/" className="router-link-active router-link-exact-active flex items-center gap-x-3 text-2xl font-bold" >
                 <img
@@ -79,7 +78,6 @@ const Navbar = () => {
             </div>
           </div>
         </nav>
-      </div>
     )
 
     // <div>
