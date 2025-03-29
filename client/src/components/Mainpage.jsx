@@ -208,7 +208,7 @@ const Mainpage = () => {
                       decoding="async"
                       data-nimg="1"
                       className="h-auto w-[115px] object-scale-down pb-5 sm:w-[185px] sm:pb-0"
-                      src="/assets/block-2-CLhCdHDE.webp"
+                      src={assets.IMG2}
                       style={{ color: "transparent" }}
                     />
                   </div>
@@ -260,7 +260,7 @@ const Mainpage = () => {
                       decoding="async"
                       data-nimg="1"
                       className="h-auto w-[115px] object-scale-down pb-5 sm:w-[185px] sm:pb-0"
-                      src="/assets/block-3-0o0O3OZa.webp"
+                      src={assets.IMG1}
                       style={{ color: "transparent" }}
                     />
                   </div>
@@ -311,7 +311,7 @@ const Mainpage = () => {
                       decoding="async"
                       data-nimg="1"
                       className="h-auto w-[115px] object-scale-down pb-5 sm:w-[185px] sm:pb-0"
-                      src="/assets/block-4-l9CNFOCn.webp"
+                      src={assets.IMG5}
                       style={{ color: "transparent" }}
                     />
                   </div>
@@ -351,7 +351,7 @@ const Mainpage = () => {
         <div className="mx-[25px] max-w-[1173px] py-[48px] 2xl:mx-auto lg:mx-[107px] sm:mx-[64px]">
             <div className="flex flex-col gap-x-[82px] lg:flex-row">
                 <div className="relative" data-aos="fade-right">
-                    <img alt="Eth Head" loading="lazy" width="500" height="500" decoding="async" data-nimg="1" className="mb-10 h-[215] min-h-[215] min-w-[215] w-[215] sm:mb-0 sm:mt-0 lg:block sm:hidden lg:h-[600] lg:min-h-[600] lg:min-w-[600] lg:w-[600]" src="/assets/toncoin-stack-DgZpuOMZ.png" style={{color: 'transparent'}} />
+                    <img alt="Eth Head" loading="lazy" width="500" height="500" decoding="async" data-nimg="1" className="mb-10 h-[215] min-h-[215] min-w-[215] w-[215] sm:mb-0 sm:mt-0 lg:block sm:hidden lg:h-[600] lg:min-h-[600] lg:min-w-[600] lg:w-[600]" src={assets.IMG3} style={{color: 'transparent'}} />
                     <div className="pointer-events-none absolute top-0 hidden h-[270px] w-[339px] translate-y-[90%] rounded-[50%] bg-[#2db9ff] blur-[125px] filter -z-10 lg:block sm:hidden -translate-x-[80px]"></div>
                 </div>
                 <div className="flex flex-col lg:w-[575px]" data-aos="fade-left">
