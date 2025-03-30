@@ -162,9 +162,9 @@ const Mainpage = () => {
               </h1>
             </div>
 
-            <div className= "mt-16 grid grid-cols-1 gap-x-6 gap-y-8 xl:grid-cols-2 xl:grid-rows-2">
+            <div className="mt-16 grid grid-cols-1 gap-x-6 gap-y-8 xl:grid-cols-2 xl:grid-rows-2">
               <div
-                className= "relative overflow-hidden border border-[#0098ea] rounded-[24px] bg-[#f7f9fb] p-8 sm:p-12"
+                className="relative overflow-hidden border border-[#0098ea] rounded-[24px] bg-[#f7f9fb] p-8 sm:p-12"
                 data-aos="fade-left"
               >
                 <div className="flex flex-col items-center justify-between text-center sm:flex-row sm:text-start">
@@ -348,31 +348,552 @@ const Mainpage = () => {
           </div>
         </div>
         <div id="how-to-start" className="relative overflow-x-hidden bg-none">
-        <div className="mx-[25px] max-w-[1173px] py-[48px] 2xl:mx-auto lg:mx-[107px] sm:mx-[64px]">
+          <div className="mx-[25px] max-w-[1173px] py-[48px] 2xl:mx-auto lg:mx-[107px] sm:mx-[64px]">
             <div className="flex flex-col gap-x-[82px] lg:flex-row">
-                <div className="relative" data-aos="fade-right">
-                    <img alt="Eth Head" loading="lazy" width="500" height="500" decoding="async" data-nimg="1" className="mb-10 h-[215] min-h-[215] min-w-[215] w-[215] sm:mb-0 sm:mt-0 lg:block sm:hidden lg:h-[600] lg:min-h-[600] lg:min-w-[600] lg:w-[600]" src={assets.IMG3} style={{color: 'transparent'}} />
-                    <div className="pointer-events-none absolute top-0 hidden h-[270px] w-[339px] translate-y-[90%] rounded-[50%] bg-[#2db9ff] blur-[125px] filter -z-10 lg:block sm:hidden -translate-x-[80px]"></div>
+              <div className="relative" data-aos="fade-right">
+                <img
+                  alt="Eth Head"
+                  loading="lazy"
+                  width="500"
+                  height="500"
+                  decoding="async"
+                  data-nimg="1"
+                  className="mb-10 h-[215] min-h-[215] min-w-[215] w-[215] sm:mb-0 sm:mt-0 lg:block sm:hidden lg:h-[600] lg:min-h-[600] lg:min-w-[600] lg:w-[600]"
+                  src={assets.IMG3}
+                  style={{ color: "transparent" }}
+                />
+                <div className="pointer-events-none absolute top-0 hidden h-[270px] w-[339px] translate-y-[90%] rounded-[50%] bg-[#2db9ff] blur-[125px] filter -z-10 lg:block sm:hidden -translate-x-[80px]"></div>
+              </div>
+              <div className="flex flex-col lg:w-[575px]" data-aos="fade-left">
+                <h2 className="mb-4 text-center text-[28px] font-bold leading-normal lg:text-start lg:text-[75px] sm:text-[65px] sm:leading-[80px]">
+                  How to start{" "}
+                  <span className="block text-[#2db9ff]">investing</span> in
+                  Galaxy?
+                </h2>
+                <p className="text-center text-[16px] text-[#1e2337] leading-[25px] lg:text-start sm:text-[20px] sm:leading-[30px]">
+                  When creating Galaxy, our team paid special attention to the
+                  convenience of working with investments. Managing your deposit
+                  has never been so fast and simple.
+                </p>
+                <div
+                  className="mb-4 mt-8 flex flex-col items-center gap-x-6 gap-y-6 border border-[#192751] rounded-[12px] px-[32px] py-[23px] sm:flex-row"
+                  data-aos="fade-left"
+                  data-aos-delay="200"
+                >
+                  <span className="text-[45px] text-[#2db9ff] font-semibold leading-[45px]">
+                    01
+                  </span>
+                  <span className="text-center text-[16px] font-medium leading-[20px] sm:text-start sm:text-[20px]">
+                    Choose the plan that suits you best
+                  </span>
                 </div>
-                <div className="flex flex-col lg:w-[575px]" data-aos="fade-left">
-                    <h2 className="mb-4 text-center text-[28px] font-bold leading-normal lg:text-start lg:text-[75px] sm:text-[65px] sm:leading-[80px]">How to start <span className="block text-[#2db9ff]">investing</span> in Galaxy?</h2>
-                    <p className="text-center text-[16px] text-[#1e2337] leading-[25px] lg:text-start sm:text-[20px] sm:leading-[30px]">When creating Galaxy, our team paid special attention to the convenience of working with investments. Managing your deposit has never been so fast and simple.</p>
-                    <div className="mb-4 mt-8 flex flex-col items-center gap-x-6 gap-y-6 border border-[#192751] rounded-[12px] px-[32px] py-[23px] sm:flex-row" data-aos="fade-left" data-aos-delay="200">
-                        <span className="text-[45px] text-[#2db9ff] font-semibold leading-[45px]">01</span>
-                        <span className="text-center text-[16px] font-medium leading-[20px] sm:text-start sm:text-[20px]">Choose the plan that suits you best</span>
-                    </div>
-                    <div className="mb-4 flex flex-col items-center gap-x-6 gap-y-6 border border-[#192751] rounded-[12px] px-[32px] py-[23px] sm:flex-row" data-aos="fade-left" data-aos-delay="200">
-                        <span className="text-[45px] text-[#2db9ff] font-semibold leading-[45px]">02</span>
-                        <span className="text-center text-[16px] font-medium leading-[20px] sm:text-start sm:text-[20px]">Make a deposit of <span className="text-[#2db9ff]">10.00 USDT</span> or more</span>
-                    </div>
-                    <div className="mb-4 flex flex-col items-center gap-x-6 gap-y-6 border border-[#192751] rounded-[12px] px-[32px] py-[23px] sm:flex-row" data-aos="fade-left" data-aos-delay="200">
-                        <span className="text-[45px] text-[#2db9ff] font-semibold leading-[45px]">03</span>
-                        <span className="text-center text-[16px] font-medium leading-[20px] sm:text-start sm:text-[20px]">Receive dividends and withdraw them</span>
-                    </div>
+                <div
+                  className="mb-4 flex flex-col items-center gap-x-6 gap-y-6 border border-[#192751] rounded-[12px] px-[32px] py-[23px] sm:flex-row"
+                  data-aos="fade-left"
+                  data-aos-delay="200"
+                >
+                  <span className="text-[45px] text-[#2db9ff] font-semibold leading-[45px]">
+                    02
+                  </span>
+                  <span className="text-center text-[16px] font-medium leading-[20px] sm:text-start sm:text-[20px]">
+                    Make a deposit of{" "}
+                    <span className="text-[#2db9ff]">10.00 USDT</span> or more
+                  </span>
                 </div>
+                <div
+                  className="mb-4 flex flex-col items-center gap-x-6 gap-y-6 border border-[#192751] rounded-[12px] px-[32px] py-[23px] sm:flex-row"
+                  data-aos="fade-left"
+                  data-aos-delay="200"
+                >
+                  <span className="text-[45px] text-[#2db9ff] font-semibold leading-[45px]">
+                    03
+                  </span>
+                  <span className="text-center text-[16px] font-medium leading-[20px] sm:text-start sm:text-[20px]">
+                    Receive dividends and withdraw them
+                  </span>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
+        <div id="plans" className="relative bg-none">
+          <div className="mx-auto max-w-[1170px]">
+            <div className="">
+              <div className="mx-auto px-6 pb-20 lg:px-8 lg:py-20">
+                <div className="mx-auto">
+                  <h1 className="text-center text-[28px] font-bold leading-normal sm:text-[75px] sm:leading-[80px]">
+                    Plans
+                  </h1>
+                  <div className="font-muller mt-[55px] flex flex-col flex-wrap gap-5 lg:flex-row">
+                    <div
+                      className="w-full lg:w-[30%] border rounded-[21px] bg-[#f7f9fb] px-[30px] py-[35px] transition-all hover:scale-[1.02]"
+                      data-aos="fade-right"
+                      data-aos-delay="200"
+                    >
+                      <div className="flex items-center gap-x-[25px] lg:flex-col lg:items-start lg:gap-y-[48px]">
+                        <div className="max-w-fit rounded-[21px] bg-[#ffffff] px-[17px] py-[50px] lg:px-[20px] lg:py-[20px]">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            aria-hidden="true"
+                            className="h-[42px] w-[42px] text-[#0098ea]"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"
+                            ></path>
+                          </svg>
+                        </div>
+                        <div className="mt-3 flex flex-col gap-[25px] lg:mt-0 sm:min-w-fit">
+                          <div className="flex flex-col gap-[5px]">
+                            <span className="text-[21px] font-bold leading-[21px]">
+                              <span className="text-[45px]">30.00%</span>
+                              <br />
+                              Per Day
+                            </span>
+                            <span className="text-[14px] text-[#757185] font-bold leading-[21px]">
+                              Your profit
+                            </span>
+                          </div>
+                          <div className="flex flex-col gap-[5px]">
+                            <span className="text-[21px] font-bold leading-[21px]">
+                              10 - 200 USDT
+                            </span>
+                            <span className="text-[14px] text-[#757185] font-bold leading-[21px]">
+                              Investments
+                            </span>
+                          </div>
+                        </div>
+                        <div className="hidden w-full sm:block lg:hidden">
+                          <a
+                            href="#/dashboard"
+                            className="group shadow-button h-[48px] w-full flex items-center justify-center rounded-2xl bg-[#0098ea] text-white font-bold transition hover:bg-[#00a6ff]"
+                          >
+                            Invest Now
+                          </a>
+                        </div>
+                      </div>
+                      <div className="mt-[25px] lg:block sm:hidden">
+                        <a
+                          href="#/dashboard"
+                          className="group shadow-button h-[48px] w-full flex items-center justify-center rounded-2xl bg-[#0098ea] text-white font-bold transition hover:bg-[#00a6ff]"
+                        >
+                          Invest Now
+                        </a>
+                      </div>
+                    </div>
+
+                    <div
+                      className="w-full lg:w-[30%] border rounded-[21px] bg-[#f7f9fb] px-[30px] py-[35px] transition-all hover:scale-[1.02]"
+                      data-aos="fade-right"
+                      data-aos-delay="200"
+                    >
+                      <div className="flex items-center gap-x-[25px] lg:flex-col lg:items-start lg:gap-y-[48px]">
+                        <div className="max-w-fit rounded-[21px] bg-[#ffffff] px-[17px] py-[50px] lg:px-[20px] lg:py-[20px]">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            aria-hidden="true"
+                            className="h-[42px] w-[42px] text-[#0098ea]"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"
+                            ></path>
+                          </svg>
+                        </div>
+                        <div className="mt-3 flex flex-col gap-[25px] lg:mt-0 sm:min-w-fit">
+                          <div className="flex flex-col gap-[5px]">
+                            <span className="text-[21px] font-bold leading-[21px]">
+                              <span className="text-[45px]">36.00%</span>
+                              <br />
+                              Per Day
+                            </span>
+                            <span className="text-[14px] text-[#757185] font-bold leading-[21px]">
+                              Your profit
+                            </span>
+                          </div>
+                          <div className="flex flex-col gap-[5px]">
+                            <span className="text-[21px] font-bold leading-[21px]">
+                              200 - 700 USDT
+                            </span>
+                            <span className="text-[14px] text-[#757185] font-bold leading-[21px]">
+                              Investments
+                            </span>
+                          </div>
+                        </div>
+                        <div className="hidden w-full sm:block lg:hidden">
+                          <a
+                            href="#/dashboard"
+                            className="group shadow-button h-[48px] w-full flex items-center justify-center rounded-2xl bg-[#0098ea] text-white font-bold transition hover:bg-[#00a6ff]"
+                          >
+                            Invest Now
+                          </a>
+                        </div>
+                      </div>
+                      <div className="mt-[25px] lg:block sm:hidden">
+                        <a
+                          href="#/dashboard"
+                          className="group shadow-button h-[48px] w-full flex items-center justify-center rounded-2xl bg-[#0098ea] text-white font-bold transition hover:bg-[#00a6ff]"
+                        >
+                          Invest Now
+                        </a>
+                      </div>
+                    </div>
+
+                    <div
+                      className="w-full lg:w-[30%] border rounded-[21px] bg-[#f7f9fb] px-[30px] py-[35px] transition-all hover:scale-[1.02]"
+                      data-aos="fade-right"
+                      data-aos-delay="200"
+                    >
+                      <div className="flex items-center gap-x-[25px] lg:flex-col lg:items-start lg:gap-y-[48px]">
+                        <div className="max-w-fit rounded-[21px] bg-[#ffffff] px-[17px] py-[50px] lg:px-[20px] lg:py-[20px]">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            aria-hidden="true"
+                            className="h-[42px] w-[42px] text-[#0098ea]"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"
+                            ></path>
+                          </svg>
+                        </div>
+                        <div className="mt-3 flex flex-col gap-[25px] lg:mt-0 sm:min-w-fit">
+                          <div className="flex flex-col gap-[5px]">
+                            <span className="text-[21px] font-bold leading-[21px]">
+                              <span className="text-[45px]">39.00%</span>
+                              <br />
+                              Per Day
+                            </span>
+                            <span className="text-[14px] text-[#757185] font-bold leading-[21px]">
+                              Your profit
+                            </span>
+                          </div>
+                          <div className="flex flex-col gap-[5px]">
+                            <span className="text-[21px] font-bold leading-[21px]">
+                              700 - 2,000 USDT
+                            </span>
+                            <span className="text-[14px] text-[#757185] font-bold leading-[21px]">
+                              Investments
+                            </span>
+                          </div>
+                        </div>
+                        <div className="hidden w-full sm:block lg:hidden">
+                          <a
+                            href="#/dashboard"
+                            className="group shadow-button h-[48px] w-full flex items-center justify-center rounded-2xl bg-[#0098ea] text-white font-bold transition hover:bg-[#00a6ff]"
+                          >
+                            Invest Now
+                          </a>
+                        </div>
+                      </div>
+                      <div className="mt-[25px] lg:block sm:hidden">
+                        <a
+                          href="#/dashboard"
+                          className="group shadow-button h-[48px] w-full flex items-center justify-center rounded-2xl bg-[#0098ea] text-white font-bold transition hover:bg-[#00a6ff]"
+                        >
+                          Invest Now
+                        </a>
+                      </div>
+                    </div>
+
+                    <div
+                      className="w-full lg:w-[30%] border rounded-[21px] bg-[#f7f9fb] px-[30px] py-[35px] transition-all hover:scale-[1.02]"
+                      data-aos="fade-right"
+                      data-aos-delay="200"
+                    >
+                      <div className="flex items-center gap-x-[25px] lg:flex-col lg:items-start lg:gap-y-[48px]">
+                        <div className="max-w-fit rounded-[21px] bg-[#ffffff] px-[17px] py-[50px] lg:px-[20px] lg:py-[20px]">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            aria-hidden="true"
+                            className="h-[42px] w-[42px] text-[#0098ea]"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"
+                            ></path>
+                          </svg>
+                        </div>
+                        <div className="mt-3 flex flex-col gap-[25px] lg:mt-0 sm:min-w-fit">
+                          <div className="flex flex-col gap-[5px]">
+                            <span className="text-[21px] font-bold leading-[21px]">
+                              <span className="text-[45px]">42.00%</span>
+                              <br />
+                              Per Day
+                            </span>
+                            <span className="text-[14px] text-[#757185] font-bold leading-[21px]">
+                              Your profit
+                            </span>
+                          </div>
+                          <div className="flex flex-col gap-[5px]">
+                            <span className="text-[21px] font-bold leading-[21px]">
+                              2,000 - 10,000 USDT
+                            </span>
+                            <span className="text-[14px] text-[#757185] font-bold leading-[21px]">
+                              Investments
+                            </span>
+                          </div>
+                        </div>
+                        <div className="hidden w-full sm:block lg:hidden">
+                          <a
+                            href="#/dashboard"
+                            className="group shadow-button h-[48px] w-full flex items-center justify-center rounded-2xl bg-[#0098ea] text-white font-bold transition hover:bg-[#00a6ff]"
+                          >
+                            Invest Now
+                          </a>
+                        </div>
+                      </div>
+                      <div className="mt-[25px] lg:block sm:hidden">
+                        <a
+                          href="#/dashboard"
+                          className="group shadow-button h-[48px] w-full flex items-center justify-center rounded-2xl bg-[#0098ea] text-white font-bold transition hover:bg-[#00a6ff]"
+                        >
+                          Invest Now
+                        </a>
+                      </div>
+                    </div>
+
+                    <div
+                      className="w-full lg:w-[30%] border rounded-[21px] bg-[#f7f9fb] px-[30px] py-[35px] transition-all hover:scale-[1.02]"
+                      data-aos="fade-right"
+                      data-aos-delay="200"
+                    >
+                      <div className="flex items-center gap-x-[25px] lg:flex-col lg:items-start lg:gap-y-[48px]">
+                        <div className="max-w-fit rounded-[21px] bg-[#ffffff] px-[17px] py-[50px] lg:px-[20px] lg:py-[20px]">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            aria-hidden="true"
+                            className="h-[42px] w-[42px] text-[#0098ea]"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"
+                            ></path>
+                          </svg>
+                        </div>
+                        <div className="mt-3 flex flex-col gap-[25px] lg:mt-0 sm:min-w-fit">
+                          <div className="flex flex-col gap-[5px]">
+                            <span className="text-[21px] font-bold leading-[21px]">
+                              <span className="text-[45px]">45.00%</span>
+                              <br />
+                              Per Day
+                            </span>
+                            <span className="text-[14px] text-[#757185] font-bold leading-[21px]">
+                              Your profit
+                            </span>
+                          </div>
+                          <div className="flex flex-col gap-[5px]">
+                            <span className="text-[21px] font-bold leading-[21px]">
+                              10,000 - 30,000 USDT
+                            </span>
+                            <span className="text-[14px] text-[#757185] font-bold leading-[21px]">
+                              Investments
+                            </span>
+                          </div>
+                        </div>
+                        <div className="hidden w-full sm:block lg:hidden">
+                          <a
+                            href="#/dashboard"
+                            className="group shadow-button h-[48px] w-full flex items-center justify-center rounded-2xl bg-[#0098ea] text-white font-bold transition hover:bg-[#00a6ff]"
+                          >
+                            Invest Now
+                          </a>
+                        </div>
+                      </div>
+                      <div className="mt-[25px] lg:block sm:hidden">
+                        <a
+                          href="#/dashboard"
+                          className="group shadow-button h-[48px] w-full flex items-center justify-center rounded-2xl bg-[#0098ea] text-white font-bold transition hover:bg-[#00a6ff]"
+                        >
+                          Invest Now
+                        </a>
+                      </div>
+                    </div>
+
+                    <div
+                      className="w-full lg:w-[30%] border rounded-[21px] bg-[#f7f9fb] px-[30px] py-[35px] transition-all hover:scale-[1.02]"
+                      data-aos="fade-right"
+                      data-aos-delay="200"
+                    >
+                      <div className="flex items-center gap-x-[25px] lg:flex-col lg:items-start lg:gap-y-[48px]">
+                        <div className="max-w-fit rounded-[21px] bg-[#ffffff] px-[17px] py-[50px] lg:px-[20px] lg:py-[20px]">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 24 24"
+                            stroke-width="1.5"
+                            stroke="currentColor"
+                            aria-hidden="true"
+                            className="h-[42px] w-[42px] text-[#0098ea]"
+                          >
+                            <path
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                              d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z"
+                            ></path>
+                          </svg>
+                        </div>
+                        <div className="mt-3 flex flex-col gap-[25px] lg:mt-0 sm:min-w-fit">
+                          <div className="flex flex-col gap-[5px]">
+                            <span className="text-[21px] font-bold leading-[21px]">
+                              <span className="text-[45px]">50.00%</span>
+                              <br />
+                              Per Day
+                            </span>
+                            <span className="text-[14px] text-[#757185] font-bold leading-[21px]">
+                              Your profit
+                            </span>
+                          </div>
+                          <div className="flex flex-col gap-[5px]">
+                            <span className="text-[21px] font-bold leading-[21px]">
+                              30,000 - 100,000 USDT
+                            </span>
+                            <span className="text-[14px] text-[#757185] font-bold leading-[21px]">
+                              Investments
+                            </span>
+                          </div>
+                        </div>
+                        <div className="hidden w-full sm:block lg:hidden">
+                          <a
+                            href="#/dashboard"
+                            className="group shadow-button h-[48px] w-full flex items-center justify-center rounded-2xl bg-[#0098ea] text-white font-bold transition hover:bg-[#00a6ff]"
+                          >
+                            Invest Now
+                          </a>
+                        </div>
+                      </div>
+                      <div className="mt-[25px] lg:block sm:hidden">
+                        <a
+                          href="#/dashboard"
+                          className="group shadow-button h-[48px] w-full flex items-center justify-center rounded-2xl bg-[#0098ea] text-white font-bold transition hover:bg-[#00a6ff]"
+                        >
+                          Invest Now
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="allocation" className="bg-none">
+          <div className="mx-auto max-w-[1424px] w-full px-0 pb-16 md:px-10">
+            <div className="relative isolate flex flex-col items-center overflow-hidden border border-[#0098ea] rounded-[24px] bg-[#f7f9fb] px-[16px] py-[20px] lg:gap-x-16 lg:px-[126px] lg:py-[56px] sm:px-[56px] sm:py-[66px]">
+              <h2 className="max-w-[800px] text-center text-[28px] font-bold leading-normal lg:text-[75px] sm:text-[65px] sm:leading-[80px]">
+                Platform Fund <span className="text-[#2db9ff]">Allocation</span>
+              </h2>
+              <p className="mx-auto my-6 max-w-[890px] text-center text-[16px] text-[#1e2337] leading-[25px] sm:my-8 sm:text-[20px] sm:leading-[30px]">
+                The smart AI-based fund management system automatically
+                accumulates and distributes incoming investments and their
+                payouts
+              </p>
+              <div className="flex flex-col items-center justify-center gap-x-4 xl:flex-row">
+                <div data-aos="fade-right" className="aos-init aos-animate">
+                  <img
+                    alt="Chart Desktop"
+                    loading="lazy"
+                    width="401"
+                    height="275"
+                    decoding="async"
+                    data-nimg="1"
+                    className="my-8 block min-h-[182px] min-w-[265px] xl:hidden sm:min-h-[275px] sm:min-w-[401px]"
+                    src={assets.IMG4}
+                    style={{ color: "transparent" }}
+                  />
+                  <img
+                    alt="Chart Desktop"
+                    loading="lazy"
+                    width="663"
+                    height="354"
+                    decoding="async"
+                    data-nimg="1"
+                    className= "hidden min-h-[354px] min-w-[663px] xl:block"
+                    src={assets.IMG7}
+                    style={{ color: "transparent" }}
+                  />
+                </div>
+                <div className="flex flex-col gap-y-[41px] text-center sm:text-start">
+                  <div data-aos="fade-down" className="aos-init aos-animate">
+                    <p className="mb-[8px] text-[18px] text-[#2db9ff] font-semibold leading-[30px] sm:text-[20px]">
+                      90% to Investors
+                    </p>
+                    <p className="text-[14px] text-[#1e2337] leading-[20px]">
+                      90% of the pool funds are allocated to investors who have
+                      made deposits
+                    </p>
+                  </div>
+                  <div data-aos="fade-down" className="aos-init aos-animate">
+                    <p className="mb-[8px] text-[18px] text-[#4BB34B] font-semibold leading-[30px] sm:text-[20px]">
+                      5% Project Maintenance
+                    </p>
+                    <p className="text-[14px] text-[#1e2337] leading-[20px]">
+                      5% of the pool funds are allocated to project maintenance
+                      by the development team and technical staff
+                    </p>
+                  </div>
+                  <div data-aos="fade-down" className="aos-init aos-animate">
+                    <p className="mb-[8px] text-[18px] text-[#FF3347] font-semibold leading-[30px] sm:text-[20px]">
+                      5% Marketing
+                    </p>
+                    <p className="text-[14px] text-[#1e2337] leading-[20px]">
+                      5% of the pool funds are allocated to platform promotion
+                      in media resources
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div className="mt-10 w-full sm:w-fit" data-aos="fade-up">
+                <a
+                  href="#/dashboard"
+                  className="group shadow-button h-[65px] w-full flex items-center justify-center rounded-2xl bg-[#0098ea] text-white font-bold transition sm:w-[371px] hover:bg-[#00a6ff]"
+                >
+                  <span className="flex items-center justify-center">
+                    Stake Now
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      aria-hidden="true"
+                      className="ml-2 h-5 w-5"
+                    >
+                      <path
+                        fillRule="evenodd"
+                        d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z"
+                        clipRule="evenodd"
+                      ></path>
+                    </svg>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </main>
     </div>
   );

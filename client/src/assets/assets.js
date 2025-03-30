@@ -5,6 +5,7 @@ import IMG3 from './IMG3.png'
 import IMG4 from './IMG4.png'
 import IMG5 from './IMG5.png'
 import IMG6 from './IMG6.png'
+import IMG7 from './IMG7.png'
 
 export const assets = {
   NASA,
@@ -13,5 +14,6 @@ export const assets = {
   IMG3,
   IMG4,
   IMG5,
-  IMG6
+  IMG6,
+  IMG7
 }
