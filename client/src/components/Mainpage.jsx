@@ -833,7 +833,7 @@ const Mainpage = () => {
                     height="354"
                     decoding="async"
                     data-nimg="1"
-                    className= "hidden min-h-[354px] min-w-[663px] xl:block"
+                    className="hidden min-h-[354px] min-w-[663px] xl:block"
                     src={assets.IMG7}
                     style={{ color: "transparent" }}
                   />
@@ -890,6 +890,286 @@ const Mainpage = () => {
                     </svg>
                   </span>
                 </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="calculator" className="relative bg-none">
+          <div className="mx-auto w-full px-0 py-16 md:px-10">
+            <div className="mb-10 flex">
+              <h2 className="mx-auto max-w-[800px] w-full text-center text-[28px] font-bold leading-normal lg:text-[75px] sm:text-[65px] sm:leading-[80px]">
+                <span className="text-[#2db9ff]">Calculator</span> Your profit
+              </h2>
+            </div>
+            <div
+              className="relative isolate z-11 mx-auto max-w-[1171px] flex flex-col items-start overflow-hidden border border-[#0098ea] rounded-[24px] bg-[#f7f9fb] px-[16px] py-[20px] lg:flex-row sm:border-none sm:bg-white md:px-[50px] md:py-[50px] sm:px-[26px] sm:py-[26px]"
+              data-aos="zoom-in"
+            >
+              <div className="order-2 mt-20 w-full sm:order-1 sm:mt-0">
+                <div className="flex flex-col">
+                  <div className="mb-[59px] flex flex-col">
+                    <label className="block text-sm text-[#04060b] font-medium">
+                      Deposit amount:
+                    </label>
+                    <div className="relative mt-2.5 rounded-md shadow-sm">
+                      <input
+                        id="ton"
+                        type="number"
+                        inputmode="numeric"
+                        step="10"
+                        min="10"
+                        max="10000"
+                        className="[showMore::-webkit-outer-spin-button]:appearance-none [showMore::-webkit-inner-spin-button]:appearance-none [appearance:textfield] block h-[61px] w-full rounded-[16px] border-none bg-[#2db9ff25] px-[24px] py-[16px] text-[#04060b] font-bold focus:border-none focus:ring-[#2db9ff]"
+                      />
+                      <div className="absolute inset-x-0 bottom-0 flex items-center px-[16px]">
+                        <input
+                          type="range"
+                          step="10"
+                          min="10"
+                          max="10000"
+                          className="range-thumb h-[2px] w-full cursor-pointer appearance-none bg-[#2db9ff]"
+                        />
+                      </div>
+                      <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-5">
+                        USDT
+                      </div>
+                    </div>
+                  </div>
+                  <div className="flex flex-col">
+                    <label className="block text-sm text-[#04060b] font-medium">
+                      Number of days you want to invest
+                    </label>
+                    <div className="relative mt-2.5 rounded-md shadow-sm">
+                      <input
+                        id="days"
+                        type="number"
+                        inputmode="numeric"
+                        step="1"
+                        min="30"
+                        max="365"
+                        className="[showMore::-webkit-outer-spin-button]:appearance-none [showMore::-webkit-inner-spin-button]:appearance-none [appearance:textfield] block h-[61px] w-full rounded-[16px] border-none bg-[#2db9ff25] px-[24px] py-[16px] text-[#04060b] font-bold focus:border-none focus:ring-[#2db9ff]"
+                      />
+                      <div className="absolute inset-x-0 bottom-0 flex items-center px-[16px]">
+                        <input
+                          type="range"
+                          className="range-thumb h-[2px] w-full cursor-pointer appearance-none bg-[#2db9ff]"
+                          step="1"
+                          min="30"
+                          max="365"
+                        />
+                      </div>
+                      <div className="pointer-events-none absolute inset-y-0 right-0 flex items-center pr-5 text-[#04060b]">
+                        Days
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className= "mt-8 w-full flex flex-col gap-x-2.5 gap-y-2.5 sm:flex-row sm:flex-wrap">
+                  <div className= "w-full sm:w-1/2 md:w-1/3 lg:w-1/4 items-center justify-between rounded-[12px] bg-[#2db9ff10] bg-opacity-10 p-[20px] sm:max-w-[200px] border border-$primary border-solid">
+                    <div className= "hidden sm:block">
+                      <p className= "text-[18px] font-semibold sm:text-[20px]">
+                        Bronze
+                      </p>
+                      <div>
+                        <div>Profit:</div>
+                        <div className= "text-right text-[30px] sm:text-[39px] text-[#2db9ff] font-bold leading-normal ">
+                          30.00%
+                        </div>
+                      </div>
+                    </div>
+                    <div className="flex items-center justify-between sm:hidden">
+                      <div>
+                        <p className="text-[18px] font-semibold sm:text-[20px]">
+                          Bronze
+                        </p>
+                        <div>Profit:</div>
+                      </div>
+                      <div className= "text-right text-[30px] sm:text-[39px] text-[#2db9ff] font-bold leading-normal ">
+                        30.00%
+                      </div>
+                    </div>
+                  </div>
+                  <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 items-center justify-between rounded-[12px] bg-[#2db9ff10] bg-opacity-10 p-[20px] sm:max-w-[200px]">
+                    <div className="hidden sm:block">
+                      <p className="text-[18px] font-semibold sm:text-[20px]">
+                        Silver
+                      </p>
+                      <div>
+                        <div>Profit:</div>
+                        <div className= "text-right text-[30px] sm:text-[39px] text-[#2db9ff] font-bold leading-normal ">
+                          36.00%
+                        </div>
+                      </div>
+                    </div>
+                    <div className="flex items-center justify-between sm:hidden">
+                      <div>
+                        <p className="text-[18px] font-semibold sm:text-[20px]">
+                          Silver
+                        </p>
+                        <div>Profit:</div>
+                      </div>
+                      <div className= "text-right text-[30px] sm:text-[39px] text-[#2db9ff] font-bold leading-normal ">
+                        36.00%
+                      </div>
+                    </div>
+                  </div>
+                  <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 items-center justify-between rounded-[12px] bg-[#2db9ff10] bg-opacity-10 p-[20px] sm:max-w-[200px]">
+                    <div className="hidden sm:block">
+                      <p className="text-[18px] font-semibold sm:text-[20px]">
+                        Gold
+                      </p>
+                      <div>
+                        <div>Profit:</div>
+                        <div className= "text-right text-[30px] sm:text-[39px] text-[#2db9ff] font-bold leading-normal ">
+                          39.00%
+                        </div>
+                      </div>
+                    </div>
+                    <div className="flex items-center justify-between sm:hidden">
+                      <div>
+                        <p className="text-[18px] font-semibold sm:text-[20px]">
+                          Gold
+                        </p>
+                        <div>Profit:</div>
+                      </div>
+                      <div className= "text-right text-[30px] sm:text-[39px] text-[#2db9ff] font-bold leading-normal ">
+                        39.00%
+                      </div>
+                    </div>
+                  </div>
+                  <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 items-center justify-between rounded-[12px] bg-[#2db9ff10] bg-opacity-10 p-[20px] sm:max-w-[200px]">
+                    <div className="hidden sm:block">
+                      <p className="text-[18px] font-semibold sm:text-[20px]">
+                        Black Gold
+                      </p>
+                      <div>
+                        <div>Profit:</div>
+                        <div className= "text-right text-[30px] sm:text-[39px] text-[#2db9ff] font-bold leading-normal ">
+                          42.00%
+                        </div>
+                      </div>
+                    </div>
+                    <div className="flex items-center justify-between sm:hidden">
+                      <div>
+                        <p className="text-[18px] font-semibold sm:text-[20px]">
+                          Black Gold
+                        </p>
+                        <div>Profit:</div>
+                      </div>
+                      <div className= "text-right text-[30px] sm:text-[39px] text-[#2db9ff] font-bold leading-normal ">
+                        42.00%
+                      </div>
+                    </div>
+                  </div>
+                  <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 items-center justify-between rounded-[12px] bg-[#2db9ff10] bg-opacity-10 p-[20px] sm:max-w-[200px]">
+                    <div className="hidden sm:block">
+                      <p className="text-[18px] font-semibold sm:text-[20px]">
+                        Platinum
+                      </p>
+                      <div>
+                        <div>Profit:</div>
+                        <div className= "text-right text-[30px] sm:text-[39px] text-[#2db9ff] font-bold leading-normal ">
+                          45.00%
+                        </div>
+                      </div>
+                    </div>
+                    <div className="flex items-center justify-between sm:hidden">
+                      <div>
+                        <p className="text-[18px] font-semibold sm:text-[20px]">
+                          Platinum
+                        </p>
+                        <div>Profit:</div>
+                      </div>
+                      <div className= "text-right text-[30px] sm:text-[39px] text-[#2db9ff] font-bold leading-normal ">
+                        45.00%
+                      </div>
+                    </div>
+                  </div>
+                  <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 items-center justify-between rounded-[12px] bg-[#2db9ff10] bg-opacity-10 p-[20px] sm:max-w-[200px]">
+                    <div className="hidden sm:block">
+                      <p className="text-[18px] font-semibold sm:text-[20px]">
+                        Diamond
+                      </p>
+                      <div>
+                        <div>Profit:</div>
+                        <div className= "text-right text-[30px] sm:text-[39px] text-[#2db9ff] font-bold leading-normal ">
+                          51.00%
+                        </div>
+                      </div>
+                    </div>
+                    <div className="flex items-center justify-between sm:hidden">
+                      <div>
+                        <p className="text-[18px] font-semibold sm:text-[20px]">
+                          Diamond
+                        </p>
+                        <div>Profit:</div>
+                      </div>
+                      <div className= "text-right text-[30px] sm:text-[39px] text-[#2db9ff] font-bold leading-normal ">
+                        51.00%
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="order-1 min-w-full sm:order-2 lg:ml-[32px] lg:min-w-[389px] md:-ml-[100px]">
+                <div className="grid grid-cols-2 ml-6 gap-x-4 text-white lg:grid-cols-1 sm:grid-cols-3 lg:mb-0 lg:ml-0 md:ml-20 sm:mb-20 sm:ml-0 sm:gap-x-10">
+                  <div className="mt-10 max-w-[303px] flex flex-col gap-y-2 lg:ml-12 lg:mt-0 sm:mt-20">
+                    <p className="text-base">You will receive in 24 hours: </p>
+                    <p className="text-[21px] font-bold">
+                      <span className="text-[28px] sm:text-[35px]">+3.00</span>{" "}
+                      USDT
+                    </p>
+                  </div>
+                  <hr className="mb-5 ml-12 mt-3 hidden max-w-[303px] border-[#ffffff50] lg:block" />
+                  <div className="mt-10 max-w-[303px] flex flex-col gap-y-2 lg:ml-12 lg:mt-0 sm:mt-20">
+                    <p className="text-base">You will receive in 7 days: </p>
+                    <p className="text-[21px] font-bold">
+                      <span className="text-[28px] sm:text-[35px]">+21.00</span>{" "}
+                      USDT
+                    </p>
+                  </div>
+                  <hr className="mb-5 ml-12 mt-3 hidden max-w-[303px] border-[#ffffff50] lg:block" />
+                  <div className="mt-5 max-w-[303px] flex flex-col gap-y-2 lg:ml-12 lg:mt-0 sm:mt-20">
+                    <p className="text-base">You will receive in 30 days: </p>
+                    <p className="text-[21px] font-bold">
+                      <span className="text-[28px] sm:text-[35px]">+90.00</span>{" "}
+                      USDT
+                    </p>
+                  </div>
+                </div>
+                <img
+                  alt="Calc"
+                  loading="lazy"
+                  width="389"
+                  height="418"
+                  decoding="async"
+                  data-nimg="1"
+                  className="absolute top-0 hidden -z-10 lg:block"
+                  src={assets.IMG8}
+                  style={{ color: "transparent" }}
+                />
+                <img
+                  alt="Calc"
+                  loading="lazy"
+                  width="681"
+                  height="200"
+                  decoding="async"
+                  data-nimg="1"
+                  className="absolute inset-x-0 bottom-[50px] hidden max-h-[200px] w-full -z-10 sm:block lg:hidden"
+                  src={assets.IMG10}
+                  style={{ color: "transparent" }}
+                />
+                <img
+                  alt="Calc"
+                  loading="lazy"
+                  width="389"
+                  height="230"
+                  decoding="async"
+                  data-nimg="1"
+                  className="absolute inset-x-0 top-0 max-h-[300px] min-h-[300px] w-full -z-10 sm:hidden"
+                  src={assets.IMG9}
+                  style={{ color: "transparent" }}
+                />
               </div>
             </div>
           </div>
