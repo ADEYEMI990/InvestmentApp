@@ -1100,7 +1100,7 @@ const Mainpage = () => {
                     <div className="flex items-center justify-between sm:hidden">
                       <div>
                         <p className="text-[18px] font-semibold sm:text-[20px]">
-                          Diamonds & platinum
+                          Diamonds & platinums
                         </p>
                         <div>Profit:</div>
                       </div>
