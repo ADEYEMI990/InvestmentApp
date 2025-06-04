@@ -1091,7 +1091,7 @@ const Mainpage = () => {
                         Diamond
                       </p>
                       <div>
-                        <div>Profit:</div>
+                        <div>Profits:</div>
                         <div className= "text-right text-[30px] sm:text-[39px] text-[#2db9ff] font-bold leading-normal ">
                           65.00%
                         </div>
