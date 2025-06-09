@@ -968,12 +968,12 @@ const Mainpage = () => {
                   <div className= "w-full sm:w-1/2 md:w-1/3 lg:w-1/4 items-center justify-between rounded-[12px] bg-[#2db9ff10] bg-opacity-10 p-[20px] sm:max-w-[200px] border border-$primary border-solid">
                     <div className= "hidden sm:block">
                       <p className= "text-[18px] font-semibold sm:text-[20px]">
-                        Bronze
+                        Bronzes
                       </p>
                       <div>
                         <div>Profit:</div>
                         <div className= "text-right text-[30px] sm:text-[39px] text-[#2db9ff] font-bold leading-normal ">
-                          30.00%
+                          35.00%
                         </div>
                       </div>
                     </div>
