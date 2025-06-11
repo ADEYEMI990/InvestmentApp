@@ -1067,7 +1067,7 @@ const Mainpage = () => {
                         Platinums
                       </p>
                       <div>
-                        <div>Profit:</div>
+                        <div>Profits:</div>
                         <div className= "text-right text-[30px] sm:text-[39px] text-[#2db9ff] font-bold leading-normal ">
                           45.00%
                         </div>
@@ -1078,7 +1078,7 @@ const Mainpage = () => {
                         <p className="text-[18px] font-semibold sm:text-[20px]">
                           Platinum
                         </p>
-                        <div>Profit:</div>
+                        <div>Profits:</div>
                       </div>
                       <div className= "text-right text-[30px] sm:text-[39px] text-[#2db9ff] font-bold leading-normal ">
                         45.00%
