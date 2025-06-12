@@ -1076,7 +1076,7 @@ const Mainpage = () => {
                     <div className="flex items-center justify-between sm:hidden">
                       <div>
                         <p className="text-[18px] font-semibold sm:text-[20px]">
-                          Platinum
+                          Platinums
                         </p>
                         <div>Profits:</div>
                       </div>
@@ -1088,7 +1088,7 @@ const Mainpage = () => {
                   <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 items-center justify-between rounded-[12px] bg-[#2db9ff10] bg-opacity-10 p-[20px] sm:max-w-[200px]">
                     <div className="hidden sm:block">
                       <p className="text-[18px] font-semibold sm:text-[20px]">
-                        Diamond
+                        Diamonds
                       </p>
                       <div>
                         <div>Profits:</div>
@@ -1122,7 +1122,7 @@ const Mainpage = () => {
                   </div>
                   <hr className="mb-5 ml-12 mt-3 hidden max-w-[303px] border-[#ffffff50] lg:block" />
                   <div className="mt-10 max-w-[303px] flex flex-col gap-y-2 lg:ml-12 lg:mt-0 sm:mt-20">
-                    <p className="text-base">You will receive in 5 days: </p>
+                    <p className="text-base">You will receives in 5 days: </p>
                     <p className="text-[21px] font-bold">
                       <span className="text-[28px] sm:text-[35px]">+21.00</span>{" "}
                       USDT
