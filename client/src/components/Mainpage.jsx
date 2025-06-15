@@ -1132,7 +1132,7 @@ const Mainpage = () => {
                   <div className="mt-5 max-w-[303px] flex flex-col gap-y-2 lg:ml-12 lg:mt-0 sm:mt-20">
                     <p className="text-base">You will receive in 50 days: </p>
                     <p className="text-[21px] font-bold">
-                      <span className="text-[28px] sm:text-[35px]">+90.00</span>{" "}
+                      <span className="text-[28px] sm:text-[35px]">+85.00</span>{" "}
                       USDT
                     </p>
                   </div>
