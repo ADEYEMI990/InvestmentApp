@@ -1125,7 +1125,7 @@ const Mainpage = () => {
                     <p className="text-base">You will receive in 5 days: </p>
                     <p className="text-[21px] font-bold">
                       <span className="text-[28px] sm:text-[35px]">+25.00</span>{" "}
-                      USDT
+                      USDTS
                     </p>
                   </div>
                   <hr className="mb-5 ml-12 mt-3 hidden max-w-[303px] border-[#ffffff50] lg:block" />
@@ -1133,7 +1133,7 @@ const Mainpage = () => {
                     <p className="text-base">You will receive in 50 days: </p>
                     <p className="text-[21px] font-bold">
                       <span className="text-[28px] sm:text-[35px]">+85.00</span>{" "}
-                      USDT
+                      USDTS
                     </p>
                   </div>
                 </div>
