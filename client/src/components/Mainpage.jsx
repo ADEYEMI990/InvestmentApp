@@ -937,7 +937,7 @@ const Mainpage = () => {
                   </div>
                   <div className="flex flex-col">
                     <label className="block text-sm text-[#04060b] font-medium">
-                      Number of days you want to invest
+                      Number of days you want to invest for
                     </label>
                     <div className="relative mt-2.5 rounded-md shadow-sm">
                       <input
