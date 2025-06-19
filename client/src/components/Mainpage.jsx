@@ -909,7 +909,7 @@ const Mainpage = () => {
                 <div className="flex flex-col">
                   <div className="mb-[59px] flex flex-col">
                     <label className="block text-sm text-[#04060b] font-medium">
-                      Deposit amount:
+                      Deposited amount:
                     </label>
                     <div className="relative mt-2.5 rounded-md shadow-sm">
                       <input
