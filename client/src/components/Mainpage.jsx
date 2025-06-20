@@ -811,7 +811,7 @@ const Mainpage = () => {
               <p className="mx-auto my-6 max-w-[890px] text-center text-[16px] text-[#1e2337] leading-[25px] sm:my-8 sm:text-[20px] sm:leading-[30px]">
                 The smart AI-based fund management system automatically
                 accumulates and distributes incoming investments and their
-                payouts
+                payouts and automatically accumulates Earns
               </p>
               <div className="flex flex-col items-center justify-center gap-x-4 xl:flex-row">
                 <div data-aos="fade-right" className="aos-init aos-animate">
