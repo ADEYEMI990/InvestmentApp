@@ -13,7 +13,7 @@ const Navbar = () => {
                   alt="logo"
                   className= "h-[41px] w-[41px]"
                 />
-                Galaxy
+                  SPACE X
               </a>
             </div>
             <div className= "min-w-fit w-full flex space-x-10">
