@@ -28,7 +28,7 @@ const Navbar = () => {
                 href="#/#advantages"
                 className="router-link-active router-link-exact-active relative flex justify-center font-medium transition hover:text-[#00a6ff]"
               >
-                Advantages
+                Advantages to have
               </a>
               <a
                 aria-current="page"
