@@ -35,7 +35,7 @@ const Navbar = () => {
                 href="#/#how-to-start"
                 className="router-link-active router-link-exact-active relative flex justify-center font-medium transition hover:text-[#00a6ff]"
               >
-                How to Start
+                How to Start Earning
               </a>
               <a
                 aria-current="page"
