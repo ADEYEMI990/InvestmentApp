@@ -73,7 +73,7 @@ const Navbar = () => {
                 href="#/dashboard"
                 className= "shadow-button h-[45px] w-[156px] flex items-center justify-center rounded-[8px] bg-[#0098ea] text-white hover:bg-[#00a6ff]"
               >
-                Stake Now
+                Stake Now!
               </a>
             </div>
           </div>
