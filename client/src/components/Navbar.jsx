@@ -21,7 +21,7 @@ const Navbar = () => {
                 <div className= "absolute h-2 w-full rounded-b-[8px] bg-[#0098ea] transition -top-[26px]" style={{ boxShadow: 'rgb(0, 152, 234) 0px 4px 25px 0px' }}
                 >
                 </div>{" "}
-                Home
+                Home Coming
               </a>
               <a
                 aria-current="page"
