@@ -42,7 +42,7 @@ const Navbar = () => {
                 href="#/#plans"
                 className="router-link-active router-link-exact-active relative flex justify-center font-medium transition hover:text-[#00a6ff]"
               >
-                Planing Ahead
+                Planing Ahead with Us
               </a>
               <span className= "van-popover__wrapper">
                 <div className= "group relative flex cursor-pointer justify-center font-medium transition hover:text-[#00a6ff]">
