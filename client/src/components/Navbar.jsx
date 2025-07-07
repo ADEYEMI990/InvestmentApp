@@ -46,7 +46,7 @@ const Navbar = () => {
               </a>
               <span className= "van-popover__wrapper">
                 <div className= "group relative flex cursor-pointer justify-center font-medium transition hover:text-[#00a6ff]">
-                  <span>More to see in it</span>
+                  <span>More to see in it to confirm</span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
