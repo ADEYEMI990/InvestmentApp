@@ -806,7 +806,7 @@ const Mainpage = () => {
           <div className="mx-auto max-w-[1424px] w-full px-0 pb-16 md:px-10">
             <div className="relative isolate flex flex-col items-center overflow-hidden border border-[#0098ea] rounded-[24px] bg-[#f7f9fb] px-[16px] py-[20px] lg:gap-x-16 lg:px-[126px] lg:py-[56px] sm:px-[56px] sm:py-[66px]">
               <h2 className="max-w-[800px] text-center text-[28px] font-bold leading-normal lg:text-[75px] sm:text-[65px] sm:leading-[80px]">
-                Platform Funds <span className="text-[#2db9ff]">Allocation</span>
+                Platform Funds <span className="text-[#2db9ff]">Allocations</span>
               </h2>
               <p className="mx-auto my-6 max-w-[890px] text-center text-[16px] text-[#1e2337] leading-[25px] sm:my-8 sm:text-[20px] sm:leading-[30px]">
                 The smart AI-based fund management system automatically
