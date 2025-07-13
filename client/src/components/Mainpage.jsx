@@ -841,7 +841,7 @@ const Mainpage = () => {
                 <div className="flex flex-col gap-y-[41px] text-center sm:text-start">
                   <div data-aos="fade-down" className="aos-init aos-animate">
                     <p className="mb-[8px] text-[18px] text-[#2db9ff] font-semibold leading-[30px] sm:text-[20px]">
-                      90% to Investors
+                      95% to Investors
                     </p>
                     <p className="text-[14px] text-[#1e2337] leading-[20px]">
                       90% of the pool funds are allocated to investors who have
