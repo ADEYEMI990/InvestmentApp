@@ -844,7 +844,7 @@ const Mainpage = () => {
                       95% to Investors
                     </p>
                     <p className="text-[14px] text-[#1e2337] leading-[20px]">
-                      90% of the pool funds are allocated to investors who have
+                      95% of the pool funds are allocated to investors who have
                       made deposits
                     </p>
                   </div>
