@@ -859,7 +859,7 @@ const Mainpage = () => {
                   </div>
                   <div data-aos="fade-down" className="aos-init aos-animate">
                     <p className="mb-[8px] text-[18px] text-[#FF3347] font-semibold leading-[30px] sm:text-[20px]">
-                      5% Marketing
+                      15% Marketing
                     </p>
                     <p className="text-[14px] text-[#1e2337] leading-[20px]">
                       5% of the pool funds are allocated to platform promotion
