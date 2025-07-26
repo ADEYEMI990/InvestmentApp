@@ -850,7 +850,7 @@ const Mainpage = () => {
                   </div>
                   <div data-aos="fade-down" className="aos-init aos-animate">
                     <p className="mb-[8px] text-[18px] text-[#4BB34B] font-semibold leading-[30px] sm:text-[20px]">
-                      25% Project Maintenance
+                      35% Project Maintenance
                     </p>
                     <p className="text-[14px] text-[#1e2337] leading-[20px]">
                       5% of the pool funds are allocated to project maintenance
