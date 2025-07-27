@@ -862,7 +862,7 @@ const Mainpage = () => {
                       15% Marketing
                     </p>
                     <p className="text-[14px] text-[#1e2337] leading-[20px]">
-                      5% of the pool funds are allocated to platform promotion
+                      15% of the pool funds are allocated to platform promotion
                       in media resources
                     </p>
                   </div>
