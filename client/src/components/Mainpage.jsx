@@ -898,7 +898,7 @@ const Mainpage = () => {
           <div className="mx-auto w-full px-0 py-16 md:px-10">
             <div className="mb-10 flex">
               <h2 className="mx-auto max-w-[800px] w-full text-center text-[28px] font-bold leading-normal lg:text-[75px] sm:text-[65px] sm:leading-[80px]">
-                <span className="text-[#2db9ff]">Calculator</span> Your profit
+                <span className="text-[#2db9ff]">Calculator</span> Your Earn
               </h2>
             </div>
             <div
