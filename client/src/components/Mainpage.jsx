@@ -992,7 +992,7 @@ const Mainpage = () => {
                   <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 items-center justify-between rounded-[12px] bg-[#2db9ff10] bg-opacity-10 p-[20px] sm:max-w-[200px]">
                     <div className="hidden sm:block">
                       <p className="text-[18px] font-semibold sm:text-[20px]">
-                        Silver
+                        Silvers
                       </p>
                       <div>
                         <div>Profit:</div>
@@ -1004,7 +1004,7 @@ const Mainpage = () => {
                     <div className="flex items-center justify-between sm:hidden">
                       <div>
                         <p className="text-[18px] font-semibold sm:text-[20px]">
-                          Silver
+                          Silvers
                         </p>
                         <div>Profit:</div>
                       </div>
