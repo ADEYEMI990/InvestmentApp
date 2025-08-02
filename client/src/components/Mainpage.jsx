@@ -1006,7 +1006,7 @@ const Mainpage = () => {
                         <p className="text-[18px] font-semibold sm:text-[20px]">
                           Silvers
                         </p>
-                        <div>Profit:</div>
+                        <div>Profit/Earn:</div>
                       </div>
                       <div className= "text-right text-[30px] sm:text-[39px] text-[#2db9ff] font-bold leading-normal ">
                         36.00%
