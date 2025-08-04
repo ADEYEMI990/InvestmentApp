@@ -1009,7 +1009,7 @@ const Mainpage = () => {
                         <div>Profit/Earn:</div>
                       </div>
                       <div className= "text-right text-[30px] sm:text-[39px] text-[#2db9ff] font-bold leading-normal ">
-                        36.00%
+                        40.00%
                       </div>
                     </div>
                   </div>
