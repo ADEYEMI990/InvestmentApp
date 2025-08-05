@@ -1021,7 +1021,7 @@ const Mainpage = () => {
                       <div>
                         <div>Profit:</div>
                         <div className= "text-right text-[30px] sm:text-[39px] text-[#2db9ff] font-bold leading-normal ">
-                          39.00%
+                          60.00%
                         </div>
                       </div>
                     </div>
