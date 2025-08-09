@@ -1121,7 +1121,7 @@ const Mainpage = () => {
                     </p>
                   </div>
                   <hr className="mb-5 ml-12 mt-3 hidden max-w-[303px] border-[#ffffff50] lg:block" />
-                  <div className="mt-10 max-w-[303px] flex flex-col gap-y-2 lg:ml-12 lg:mt-0 sm:mt-20">
+                  <div className="mt-10 max-w-[303px] flex flex-col gap-y-2 lg:ml-12 lg:mt-0 sm:mt-22">
                     <p className="text-base">You will receive in 5 days: </p>
                     <p className="text-[21px] font-bold">
                       <span className="text-[28px] sm:text-[35px]">+25.00</span>{" "}
