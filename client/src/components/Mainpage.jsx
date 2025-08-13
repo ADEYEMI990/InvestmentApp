@@ -1131,7 +1131,7 @@ const Mainpage = () => {
                   <hr className="mb-4 ml-12 mt-3 hidden max-w-[303px] border-[#ffffff50] lg:block" />
                   <div className="mt-5 max-w-[303px] flex flex-col gap-y-2 lg:ml-12 lg:mt-0 sm:mt-20">
                     <p className="text-base">You will receive in 50 days: </p>
-                    <p className="text-[21px] font-bold">
+                    <p className="text-[21px] font-semibold">
                       <span className="text-[28px] sm:text-[30px]">+85.00</span>{" "}
                       USDTS
                     </p>
