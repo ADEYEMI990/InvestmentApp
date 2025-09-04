@@ -1,177 +1,87 @@
-import React from "react";
+import React, { useState } from "react";
+import { Menu, X } from "lucide-react";
+import { motion, AnimatePresence } from "framer-motion";
 import { assets } from "../assets/assets";
-// import { ChevronDown } from 'lucide-react';
 
 const Navbar = () => {
-    return (
-        <nav className= "fixed top-0 hidden left-0 right-0 z-50 h-[75px] w-full bg-white shadow-md items-center bg-auto bg-center bg-no-repeat transition lg:flex" aria-label= "Top">
-          <div className= "mx-auto max-w-[1171px] h-full w-full flex items-center justify-between">
-            <div className="ml-6 w-full xl:ml-0">
-              <a aria-current="page" href="/" className="router-link-active router-link-exact-active flex items-center gap-x-3 text-2xl font-bold" >
-                <img
-                  src={assets.NASA}
-                  alt="logo"
-                  className= "h-[41px] w-[41px]"
-                />
-                  SPACE X
-              </a>
-            </div>
-            <div className= "min-w-fit w-full flex space-x-10">
-              <a aria-current= "page" href="/" className="router-link-active router-link-exact-active relative flex justify-center font-medium transition hover:text-[#00a6ff]">
-                <div className= "absolute h-2 w-full rounded-b-[8px] bg-[#0098ea] transition -top-[26px]" style={{ boxShadow: 'rgb(0, 152, 234) 0px 4px 25px 0px' }}
-                >
-                </div>{" "}
-                Home Coming
-              </a>
-              <a
-                aria-current="page"
-                href="#/#advantages"
-                className="router-link-active router-link-exact-active relative flex justify-center font-medium transition hover:text-[#00a6ff]"
-              >
-                Advantages
-              </a>
-              <a
-                aria-current="page"
-                href="#/#how-to-start"
-                className="router-link-active router-link-exact-active relative flex justify-center font-medium transition hover:text-[#00a6ff]"
-              >
-                How to Start Earning MORE
-              </a>
-              <a
-                aria-current="page"
-                href="#/#plans"
-                className="router-link-active router-link-exact-active relative flex justify-center font-medium transition hover:text-[#00a6ff]"
-              >
-                Planing Ahead with Us
-              </a>
-              <span className= "van-popover__wrapper">
-                <div className= "group relative flex cursor-pointer justify-center font-medium transition hover:text-[#00a6ff]">
-                  <span>More to see in it to confirm</span>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                    aria-hidden="true"
-                    className="ml-1 mt-0.5 h-5 w-5 text-[#04060B] group-hover:text-[#00a6ff]"
-                  >
-                    <path
-                      fillRule="evenodd"
-                      d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
-                      clipRule="evenodd"
-                    ></path>
-                  </svg>
-                </div>
-              </span>
-            </div>
-            <div className= "mr-6 w-full flex items-center justify-end xl:mr-0">
-              <div className= "base-lang-wrap">
-                <div className= "cursor-pointer">
-                  <div className= "i-ic:sharp-language mr-10px h-30px w-30px cursor-pointer transition hover:text-[#00a6ff]"></div>
-                </div>
-              </div>
+  const [isOpen, setIsOpen] = useState(false);
+
+  const handleLinkClick = () => setIsOpen(false); // ✅ auto-close on link click
+
+  return (
+    <header className="fixed top-0 left-0 w-full bg-white shadow-sm z-50">
+      <nav
+        className="h-[60px] flex items-center justify-between max-w-[1171px] mx-auto px-4 sm:px-6"
+        aria-label="Top"
+      >
+        {/* Logo */}
+        <a href="/" className="flex items-center gap-x-2 text-xl font-semibold">
+          <img src={assets.NASA} alt="logo" className="h-8 w-8" />
+          Galaxy
+        </a>
+
+        {/* Desktop Menu */}
+        <div className="hidden lg:flex space-x-8 text-[15px]">
+          <a href="/" className="hover:text-[#00a6ff]">Home</a>
+          <a href="#advantages" className="hover:text-[#00a6ff]">Advantages</a>
+          <a href="#how-to-start" className="hover:text-[#00a6ff]">How to Start</a>
+          <a href="#plans" className="hover:text-[#00a6ff]">Plans</a>
+          <a href="#more" className="hover:text-[#00a6ff]">More</a>
+        </div>
+
+        {/* Desktop CTA */}
+        <div className="hidden lg:flex items-center gap-x-4">
+          <div className="cursor-pointer">🌐</div>
+          <a
+            href="#/dashboard"
+            className="px-4 py-2 rounded-md bg-[#0098ea] text-white text-sm hover:bg-[#00a6ff] shadow"
+          >
+            Stake Now
+          </a>
+        </div>
+
+        {/* Mobile Hamburger */}
+        <button
+          className="lg:hidden text-2xl"
+          onClick={() => setIsOpen(!isOpen)}
+        >
+          {isOpen ? <X /> : <Menu />}
+        </button>
+      </nav>
+
+      {/* Mobile Dropdown */}
+      <AnimatePresence>
+        {isOpen && (
+          <motion.div
+            initial={{ height: 0, opacity: 0 }}
+            animate={{ height: "auto", opacity: 1 }}
+            exit={{ height: 0, opacity: 0 }}
+            transition={{ duration: 0.25, ease: "easeInOut" }}
+            className="lg:hidden bg-white border-t shadow-sm overflow-hidden"
+          >
+            <div className="flex flex-col p-3 space-y-2 text-base">
+              <a href="/" onClick={handleLinkClick} className="py-2 hover:text-[#00a6ff]">Home</a>
+              <a href="#advantages" onClick={handleLinkClick} className="py-2 hover:text-[#00a6ff]">Advantages</a>
+              <a href="#how-to-start" onClick={handleLinkClick} className="py-2 hover:text-[#00a6ff]">How to Start</a>
+              <a href="#plans" onClick={handleLinkClick} className="py-2 hover:text-[#00a6ff]">Plans</a>
+              <a href="#more" onClick={handleLinkClick} className="py-2 hover:text-[#00a6ff]">More</a>
               <a
                 href="#/dashboard"
-                className= "shadow-button h-[45px] w-[156px] flex items-center justify-center rounded-[8px] bg-[#0098ea] text-white hover:bg-[#00a6ff]"
+                onClick={handleLinkClick}
+                className="mt-2 py-2 text-center rounded-md bg-[#0098ea] text-white hover:bg-[#00a6ff] text-sm"
               >
-                Stake Now or Never and Then Enjoy!!!
+                Stake Now
               </a>
             </div>
-          </div>
-        </nav>
-    )
-
-    // <div>
-    //   <div>
-    //     <nav
-    //       className= "top-0 hidden h-[75px] w-full items-center bg-auto bg-center bg-no-repeat transition lg:flex"
-    //       aria-label= "Top"
-    //     >
-    //       <div className="mx-auto max-w-[1171px] w-full flex items-center justify-between">
-    //         <div className="ml-6 w-full xl:ml-0">
-    //           <a
-    //             aria-current="page"
-    //             // href="#/"
-    //             className="router-link-active router-link-exact-active flex items-center gap-x-3 text-2xl font-bold"
-    //           >
-    //             <img
-    //               src={assets.NASA}
-    //               alt="logo"
-    //               className="h-[41px] w-[41px]"
-    //             />
-    //             Galaxy
-    //           </a>
-    //         </div>
-    //         <div className="min-w-fit w-full flex space-x-10">
-    //           <a
-    //             aria-current="page"
-    //             // href="#/"
-    //             className="router-link-active router-link-exact-active relative flex justify-center font-medium transition hover:text-[#00a6ff]"
-    //           >
-    //             <div
-    //               className="absolute h-2 w-full rounded-b-[8px] bg-[#0098ea] transition -top-[26px]"
-    //               style={{ boxShadow: 'rgb(0, 152, 234) 0px 4px 25px 0px' }}
-    //             ></div>{" "}
-    //             Home
-    //           </a>
-    //           <a
-    //             aria-current="page"
-    //             // href="#/#advantages"
-    //             className="router-link-active router-link-exact-active relative flex justify-center font-medium transition hover:text-[#00a6ff]"
-    //           >
-    //             Advantages
-    //           </a>
-    //           <a
-    //             aria-current="page"
-    //             href="#/#how-to-start"
-    //             className="router-link-active router-link-exact-active relative flex justify-center font-medium transition hover:text-[#00a6ff]"
-    //           >
-    //             How to Start
-    //           </a>
-    //           <a
-    //             aria-current="page"
-    //             // href="#/#plans"
-    //             className="router-link-active router-link-exact-active relative flex justify-center font-medium transition hover:text-[#00a6ff]"
-    //           >
-    //             Plans
-    //           </a>
-    //           <span className= "van-popover__wrapper">
-    //             <div className= "group relative flex cursor-pointer justify-center font-medium transition hover:text-[#00a6ff]">
-    //               <span>More</span>
-    //               <svg
-    //                 xmlns="http://www.w3.org/2000/svg"
-    //                 viewBox="0 0 20 20"
-    //                 fill="currentColor"
-    //                 aria-hidden="true"
-    //                 className="ml-1 mt-0.5 h-5 w-5 text-[#04060B] group-hover:text-[#00a6ff]"
-    //               >
-    //                 <path
-    //                   fillRule="evenodd"
-    //                   d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
-    //                   clipRule="evenodd"
-    //                 ></path>
-    //               </svg>
-    //             </div>
-    //           </span>
-    //         </div>
-    //         <div className="mr-6 w-full flex items-center justify-end xl:mr-0">
-    //           <div className="base-lang-wrap">
-    //             <div className="cursor-pointer">
-    //               <div className="i-ic:sharp-language mr-10px h-30px w-30px cursor-pointer transition hover:text-[#00a6ff]"></div>
-    //             </div>
-    //           </div>
-    //           <a
-    //             // href="#/dashboard"
-    //             className="shadow-button h-[45px] w-[156px] flex items-center justify-center rounded-[8px] bg-[#0098ea] text-white hover:bg-[#00a6ff]"
-    //           >
-    //             Stake Now
-    //           </a>
-    //         </div>
-    //       </div>
-    //     </nav>
-    //   </div>
-    // </div>
-  
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </header>
+  );
 };
 
 export default Navbar;
+
+
+
 

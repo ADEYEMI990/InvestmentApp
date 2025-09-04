@@ -5,10 +5,13 @@ import Mainpage from '../components/Mainpage'
 const Home = () => {
   return (
     <div className="relative">
+      {/* Navbar fixed at the top */}
       <Navbar />
-      <div className="pt-[75px]"> {/* Changed to match Navbar height */}
+
+      {/* Offset content by navbar height */}
+      <main className="pt-16">
         <Mainpage />
-      </div>
+      </main>
     </div>
   )
 }

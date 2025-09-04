@@ -4,7 +4,7 @@ import { assets } from "../assets/assets";
 const Mainpage = () => {
   return (
     <div>
-      <main className="relative overflow-x-hidden">
+      <main className="relative overflow-x-hidden pt-[60px]">
         <div id="home" className="relative bg-none">
           <div id="home" className="relative bg-none">
             <div className="mx-auto mb-16 max-w-[1424px] w-full overflow-hidden">
