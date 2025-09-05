@@ -81,7 +81,7 @@ const Mainpage = () => {
                     data-aos="fade-down"
                     data-aos-delay="100"
                   >
-                    Earn
+                    Earns
                     <span className="mx-20px from-[#2D83EC] to-[#1AC9FF] from-50% bg-gradient-to-r bg-clip-text text-transparent">
                       passive
                     </span>
