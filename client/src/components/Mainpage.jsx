@@ -83,10 +83,10 @@ const Mainpage = () => {
                   >
                     Earns
                     <span className="mx-20px from-[#2D83EC] to-[#1AC9FF] from-50% bg-gradient-to-r bg-clip-text text-transparent">
-                      passive
+                      passives
                     </span>
                     <br />
-                    income in USDT
+                    incomes in USDT
                   </h1>
                   <div
                     className="mx-auto my-6 max-w-xl text-center lg:mx-0 sm:my-10 lg:text-start"
