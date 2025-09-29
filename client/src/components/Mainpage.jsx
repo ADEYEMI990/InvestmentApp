@@ -108,7 +108,7 @@ const Mainpage = () => {
                       className="group shadow-button h-[65px] w-full flex items-center justify-center rounded-2xl bg-[#0098ea] text-white font-bold transition sm:w-[270px] hover:bg-[#00a6ff]"
                     >
                       <span className="flex items-center justify-center">
-                        Getting Starting
+                        Getting Started
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 20 20"
