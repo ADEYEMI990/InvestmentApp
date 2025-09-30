@@ -126,7 +126,7 @@ const Mainpage = () => {
                     </a>
                     <div className="group shadow-button h-[65px] w-full flex cursor-pointer items-center justify-center border border-$primary rounded-2xl border-solid text-$primary font-bold transition sm:w-[200px] hover:bg-[#00a6ff] hover:text-white">
                       <div className="i-solar:download-minimalistic-outline mr-2 h-[24px] w-[24px] group-hover:text-$text-white"></div>
-                      Apps
+                      App
                     </div>
                   </div>
                 </div>
